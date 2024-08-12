@@ -7,13 +7,33 @@
 body {
   width: 100svw;
   height: 100svh;
-  background-color: #1e1e1e;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 h1 {
   font-size: 24px;
   text-transform: uppercase;
-  color: #f1f1f1;
+}
+
+p {
+  color: #c8c8c8;
+}
+
+.accent {
+  color: #60aae3;
+}
+
+.wrapper {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#content-wrapper {
+  flex: 1;
 }
 
 /*# sourceMappingURL=main.css.map */
