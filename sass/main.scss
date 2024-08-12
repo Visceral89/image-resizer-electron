@@ -1,0 +1,21 @@
+// main.scss
+@import "variables";
+@import "mixins";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100svw;
+	height: 100svh;
+	background-color: #1e1e1e;
+}
+
+h1 {
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #f1f1f1;
+}
