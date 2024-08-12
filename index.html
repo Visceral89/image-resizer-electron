@@ -23,9 +23,15 @@
 				<button class="accent">Browse Folder</button>
 			</div>
 			<div id="credit-wrapper">
-				<a href="https://github.com/Visceral89"><p>github.com/visceral89</p></a>
+				<!--https://github.com/Visceral89" -->
+				<button id="github">github.com/visceral89</button>
 			</div>
 		</div>
 		<script src="./renderer.js"></script>
+		<script>
+			document.getElementById("github").addEventListener("click", () => {
+				window.electronAPI.openLink("https://github.com/Visceral89");
+			});
+		</script>
 	</body>
 </html>
