@@ -18,6 +18,7 @@ h1 {
 
 p {
   color: #c8c8c8;
+  font-size: 16px;
 }
 
 .accent {
@@ -25,18 +26,40 @@ p {
 }
 
 .wrapper {
-  padding: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
 #content-wrapper {
-  flex: 1;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  width: 100%;
+  gap: 1rem;
+}
+
+#drag-wrapper {
+  gap: 2rem;
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px dashed #c8c8c8;
+}
+
+#credit-wrapper {
+  background-color: #c8c8c8;
+  color: #000000;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1rem;
 }
 
 /*# sourceMappingURL=main.css.map */
