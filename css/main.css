@@ -1,3 +1,9 @@
+/*
+Inter 14
+Inter 18
+
+
+*/
 * {
   margin: 0;
   padding: 0;
@@ -67,7 +73,7 @@ p {
   margin-top: 2rem;
   padding-right: 2rem;
 }
-#credit-wrapper button {
+#credit-wrapper p {
   color: #9a9a9a;
   padding: 0.5rem;
 }
