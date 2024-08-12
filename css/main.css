@@ -58,8 +58,8 @@ p {
 }
 
 #credit-wrapper {
-  background-color: #c8c8c8;
-  color: #000000;
+  background-color: #f7f7f7;
+  color: #9a9a9a;
   width: 100%;
   display: flex;
   justify-content: flex-end;
@@ -68,7 +68,7 @@ p {
   padding-right: 2rem;
 }
 #credit-wrapper p {
-  color: #000000;
+  color: #9a9a9a;
   padding: 0.5rem;
 }
 

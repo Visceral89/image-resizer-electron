@@ -62,8 +62,8 @@ p {
 }
 
 #credit-wrapper {
-	background-color: $text-color-secondary;
-	color: $text-color-primary;
+	background-color: $secondary-color;
+	color: $tetiary-color;
 	width: 100%;
 	display: flex;
 	justify-content: flex-end;
@@ -71,7 +71,7 @@ p {
 	margin-top: 2rem;
 	padding-right: 2rem;
 	p {
-		color: $text-color-primary;
+		color: $tetiary-color;
 		padding: 0.5rem;
 	}
 }
