@@ -76,8 +76,7 @@
 	"scripts": {
 		"start": "npm-run-all --parallel start-electron watch-sass",
 		"start-electron": "electron .",
-		"watch-sass": "sass --watch src/sass:public/css",
-		"test": "test"
+		"watch-sass": "sass --watch sass:css"
 	},
 	"keywords": [
 		"image",
