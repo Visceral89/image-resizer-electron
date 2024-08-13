@@ -1,10 +1,10 @@
 const { app, BrowserWindow } = require("electron");
-const path = require("node:path");
-import {
+const path = require("path");
+const {
 	WINDOW_HEIGHT,
 	WINDOW_WIDTH,
 	WINDOW_TITLE,
-} from "./constants/constants";
+} = require("./constants/constants");
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
 if (require("electron-squirrel-startup")) {
@@ -19,6 +19,8 @@ const createWindow = () => {
 		height: WINDOW_HEIGHT,
 		autoHideMenuBar: true,
 		webPreferences: {
+			nodeIntegration: false,
+			contextIsolation: true,
 			preload: MAIN_WINDOW_PRELOAD_WEBPACK_ENTRY,
 		},
 	});
