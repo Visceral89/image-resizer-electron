@@ -1,0 +1,90 @@
+@import "variables";
+@import "mixins";
+
+@font-face {
+	font-family: "InterVariable";
+	src: url("../fonts/InterVariable") format("truetype-variations");
+	font-weight: 400 700;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100svw;
+	height: 100svh;
+	background-color: $primary-color;
+	color: $text-color-primary;
+	font-family: "Inter", sans-serif;
+}
+
+h1 {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+p {
+	color: $text-color-secondary;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.accent {
+	color: $accent-color;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+#content-wrapper {
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 100%;
+	text-wrap: balance;
+
+	gap: 1rem;
+	p {
+		width: 70%;
+	}
+}
+
+#drag-wrapper {
+	gap: 2rem;
+	padding: 2rem;
+	margin-right: 2rem;
+	margin-left: 2rem;
+	width: 90%;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 1rem;
+	border: 3px dashed $text-color-secondary;
+}
+
+#credit-wrapper {
+	background-color: $secondary-color;
+	color: $tetiary-color;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-top: 2rem;
+	padding-right: 2rem;
+	p {
+		color: $tetiary-color;
+		padding: 0.5rem;
+	}
+}
