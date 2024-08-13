@@ -1,12 +1,57 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Hello World!</title>
-
-  </head>
-  <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
-  </body>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="./css/main.css" />
+		<title>Image Resizer</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div id="content-wrapper">
+				<h1>Welcome to emote & image resizer</h1>
+				<p>
+					Drag folder with images into the area below. The resizer supports
+					.png, .jpg and .gif The resizer outouts image files in preset sizes of
+					28px, 56px, 112px and 512px.
+				</p>
+			</div>
+			<div id="drag-wrapper">
+				<svg
+					width="82"
+					height="67"
+					viewBox="0 0 82 67"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+						d="M13.4455 5.86328V5.86328C13.4455 3.21257 15.5943 1.06374 18.245 1.06374L72.399 1.06374C76.855 1.06374 80.4521 4.70448 80.3984 9.16013L79.8203 57.1303C79.7676 61.5107 76.2015 65.034 71.8208 65.0339L9.50117 65.0331C5.08293 65.033 1.50128 61.4513 1.50128 57.0331L1.5013 17.5418C1.50131 13.1235 5.08302 9.54178 9.50129 9.54178L24.8368 9.54178C27.5818 9.54178 30.1351 10.9492 31.6009 13.2701L33.8706 16.8642L54.0751 16.8642C58.4643 16.8642 62.0339 20.4007 62.0748 24.7897L62.3672 56.1741C62.3786 57.3908 62.6376 58.6363 63.528 59.4656C64.3893 60.2679 65.77 61.1061 67.7793 61.1061"
+						stroke="#9A9A9A"
+						stroke-width="2"
+						stroke-linecap="round"
+					/>
+					<path
+						d="M38.0717 47C38.0717 47.5523 37.624 48 37.0717 48L30.9288 48C30.3765 48 29.9288 47.5523 29.9288 47L29.9288 36.8L26.8624 36.8C25.9789 36.8 25.5295 35.7383 26.1444 35.104L33.2822 27.7407C33.6751 27.3354 34.3254 27.3354 34.7183 27.7407L41.8561 35.104C42.471 35.7383 42.0216 36.8 41.1381 36.8L38.0717 36.8L38.0717 47Z"
+						fill="#9A9A9A"
+					/>
+					<rect
+						x="24.5002"
+						y="50"
+						width="20"
+						height="5"
+						rx="1"
+						fill="#9A9A9A"
+					/>
+				</svg>
+				<h2 class="accent">Drag and Drop Folder here</h2>
+				<p>or</p>
+				<button class="accent">Browse Folder</button>
+			</div>
+			<div id="credit-wrapper">
+				<!--https://github.com/Visceral89" -->
+				<p>github.com/visceral89</p>
+			</div>
+		</div>
+		<script src="./renderer.js"></script>
+	</body>
 </html>
