@@ -27,7 +27,9 @@
 		"css-loader": "^6.11.0",
 		"electron": "31.3.1",
 		"node-loader": "^2.0.0",
+		"node-sass": "^9.0.0",
 		"sass": "^1.77.8",
+		"sass-loader": "^16.0.0",
 		"style-loader": "^3.3.4"
 	},
 	"keywords": [
