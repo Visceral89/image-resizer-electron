@@ -10,7 +10,7 @@
 		"make": "electron-forge make",
 		"publish": "electron-forge publish",
 		"lint": "echo \"No linting configured\"",
-		"watch": "sass --watch src/sass:public/css"
+		"watch": "sass --watch src/sass/main.scss src/index.css"
 	},
 	"devDependencies": {
 		"@electron-forge/cli": "^7.4.0",
